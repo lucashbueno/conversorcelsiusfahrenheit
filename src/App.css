@@ -1,0 +1,37 @@
+
+.container {
+  display: flex;
+  justify-content: center;  /* centraliza horizontalmente */
+  align-items: center;      /* centraliza verticalmente */
+  height: 100vh;            
+  background-color: white; 
+}
+
+.box {
+  display: flex;
+  flex-direction: column;   
+  gap: 30px;                
+  padding: 100px;            
+  border: 2px solid red; 
+  border-radius: 10px;
+  font-size: 30px; 
+  font-family: sans-serif;    
+  background-color: #f4f4f4;   
+}
+
+/* Estiliza os inputs */
+.input {
+  padding: 10px;            /* Espaçamento interno */
+  font-size: 16px;          /* Tamanho da fonte */
+  border: 1px solid #ccc;   /* Borda leve nos inputs */
+  border-radius: 5px;       /* Bordas arredondadas */
+  width: 100%;              /* Faz os inputs ocuparem toda a largura do box */
+  box-sizing: border-box;   /* Inclui padding e borda na largura total */
+}
+
+/* Estiliza os labels */
+label {
+  font-weight: bold;        /* Deixa o texto dos labels em negrito */
+  margin-bottom: 5px;       /* Espaçamento entre o label e o input */
+  display: block;           /* Faz o label ocupar toda a linha */
+}
