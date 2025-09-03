@@ -1,6 +1,6 @@
 # Conversor de Celsius para Fahrenheit
 
-Aplicação que converte dinamicamente temperaturas da escalas Celsius e Fahrenheit.
+Aplicação que converte dinamicamente temperaturas das escalas Celsius e Fahrenheit.
 
 # Tecnologias Utilizadas
 <div style="display: inline_block"><br>
